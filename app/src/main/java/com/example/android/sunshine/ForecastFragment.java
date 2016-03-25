@@ -100,9 +100,6 @@ public class ForecastFragment extends Fragment {
 
     public class FetchWeatherTask extends AsyncTask<String, Void, String[]> {
         private final String LOG_TAG = FetchWeatherTask.class.getSimpleName();
-
-        // скопировано с https://gist.github.com/udacityandroid/4ee49df1694da9129af9
-        // НАЧАЛО КОПИИ
          /* The date/time conversion code is going to be moved outside the asynctask later,
          * so for convenience we're breaking it out into its own method now.
          */
@@ -200,7 +197,6 @@ public class ForecastFragment extends Fragment {
             }
             return resultStrs;
         }
-        //КОНЕЦ КОПИИ
 
         @Override
         protected String[] doInBackground(String... params) {

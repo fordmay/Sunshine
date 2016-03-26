@@ -209,8 +209,8 @@ public class ForecastFragment extends Fragment {
             String forecastJsonStr = null;
             String format = "json";
             String units = "metric";
-            int numDays = 7;
-            String OPEN_WEATHER_MAP_API_KEY = "2de143494c0b295cca9337e1e96b00e0";
+            int numDays = 5;
+            String OPEN_WEATHER_MAP_API_KEY = "1663f3545741ff79649d5b2cc653b2cf";
 
             try {
                 // Construct the URL for the OpenWeatherMap query

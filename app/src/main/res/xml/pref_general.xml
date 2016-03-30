@@ -7,14 +7,11 @@
         android:singleLine="true"
         android:title="@string/pref_location_title" />
 
-
     <ListPreference
-        android:defaultValue="metric"
+        android:defaultValue="@string/pref_units_metric"
         android:entries="@array/pref_example_list_titles"
         android:entryValues="@array/pref_example_list_values"
-        android:key="example_list"
-        android:negativeButtonText="@null"
-        android:positiveButtonText="@null"
+        android:key="@string/pref_units_key"
         android:title="@string/pref_title_pick_your_units" />
 
 </PreferenceScreen>

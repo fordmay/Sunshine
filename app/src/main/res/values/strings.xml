@@ -22,7 +22,7 @@
     <string name="pref_units_key">units</string>
     <string name="pref_units_metric" translatable="false">metric</string>
     <string name="pref_units_imperial" translatable="false">imperial</string>
-    <string name="action_map">Map Location</string>
+
     <string-array name="pref_example_list_titles">
         <item>Metric</item>
         <item>Imperial</item>
@@ -31,5 +31,8 @@
         <item>@string/pref_units_metric</item>
         <item>@string/pref_units_imperial</item>
     </string-array>
+
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
 
 </resources>
